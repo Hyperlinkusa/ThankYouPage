@@ -24,12 +24,10 @@ body{
 .wrapper{
     display: none;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100vh;
-    width: 80%;
-    /* margin-left: 10px;
-    margin-right: 10px; */
+    width: 100%;
 }
 
 .wrapper .name{
