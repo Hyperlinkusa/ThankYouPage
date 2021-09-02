@@ -4,8 +4,8 @@
 }
 
 body{
-    background: rgb(147,128,70);
-    background: linear-gradient(90deg, rgba(129,108,53,1) 0%, rgba(220,201,143,1) 50%, rgba(129,108,53,1) 100%);
+    background: rgb(191,170,114);
+    background: linear-gradient(90deg, rgba(191,170,114,1) 0%, rgba(242,235,214,1) 50%, rgba(191,170,114,1) 100%);
 }
 
 .card {
