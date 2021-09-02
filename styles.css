@@ -79,7 +79,7 @@ hr {
     color: black;
 }
 
-@media all and (max-width: 360px){
+@media all and (max-width: 768px){
     .card { 
         display: none; 
     }
