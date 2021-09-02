@@ -1,8 +1,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    background: rgb(129,108,53);
-    background: linear-gradient(90deg, rgba(129,108,53,1) 12%, rgba(220,201,143,1) 44%, rgba(129,108,53,1) 88%);
+}
+
+body{
+    background: rgb(147,128,70);
+    background: linear-gradient(90deg, rgba(129,108,53,1) 0%, rgba(220,201,143,1) 50%, rgba(129,108,53,1) 100%);
 }
 
 .card {
@@ -14,6 +17,75 @@
 
 .card-img{
     width: 65%;
+}
+
+/* MOBILE */
+
+.wrapper{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.wrapper .name{
+    font-family: 'Orbitron', sans-serif;
+    color: #22577c;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #22577c;
+    border-radius: 10px;
+    margin-top: 1px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text p{
+    margin-bottom: 20px;
+}
+
+.wrapper .pic{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.wrapper .pic img{
+    width: 50%;
+}
+
+.survey{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.survey a {
+    text-decoration: none;
+    color: black;
+}
+
+@media all and (max-width: 360px){
+    .card { 
+        display: none; 
+    }
+    .wrapper {
+        display: flex;
+    }
 }
 
 
